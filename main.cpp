@@ -1,6 +1,4 @@
-#include <iostream>
+// Copyright (c) Anas Abu Farraj 2024.
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
-}
+#include <iostream>
+#include "utils/functions.h"
