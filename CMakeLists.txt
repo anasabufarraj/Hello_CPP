@@ -10,4 +10,6 @@ add_executable(
         Rectangle.h
         Length.cpp
         Length.h
+        Pair.cpp
+        Pair.h
 )

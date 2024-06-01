@@ -22,7 +22,11 @@ int Rectangle::getWidth() const {
 // setter
 void Rectangle::setWidth(int w) {
     if (w < 0) {
-        throw invalid_argument("width");
+        throw invalid_argument("The width cannot be negative!");
+    }
+
+    if (w > 100) {
+        throw out_of_range("The width cannot exceed 100!");
     }
     Rectangle::width = w;
 }
@@ -35,7 +39,7 @@ int Rectangle::getHeight() const {
 // setter
 void Rectangle::setHeight(int h) {
     if (h < 0) {
-        throw invalid_argument("height");
+        throw invalid_argument("The height cannot be negative!");
     }
     Rectangle::height = h;
 }
