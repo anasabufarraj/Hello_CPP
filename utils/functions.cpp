@@ -2,6 +2,8 @@
 
 #include <iostream>
 
-void greet(const std::string &name) {
-    std::cout << "Hello " << name;
+namespace func {
+    void greet(const std::string &name) {
+        std::cout << "Hello, " << name;
+    }
 }

@@ -6,4 +6,8 @@ set(CMAKE_CXX_STANDARD 23)
 add_executable(
         Hello_CPP main.cpp
         utils/functions.cpp
+        Rectangle.cpp
+        Rectangle.h
+        Length.cpp
+        Length.h
 )
